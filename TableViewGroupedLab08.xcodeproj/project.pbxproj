@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7DCE7173247710E4004CC03D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE7172247710E4004CC03D /* AppDelegate.swift */; };
-		7DCE7175247710E4004CC03D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE7174247710E4004CC03D /* ViewController.swift */; };
 		7DCE7178247710E4004CC03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCE7176247710E4004CC03D /* Main.storyboard */; };
 		7DCE717A247710E5004CC03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCE7179247710E5004CC03D /* Assets.xcassets */; };
 		7DCE717D247710E5004CC03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCE717B247710E5004CC03D /* LaunchScreen.storyboard */; };
+		7DCE7185247711EC004CC03D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE7184247711EC004CC03D /* TableViewController.swift */; };
+		7DCE7187247712C6004CC03D /* Secciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE7186247712C6004CC03D /* Secciones.swift */; };
+		7DCE7189247713B7004CC03D /* ModeloDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE7188247713B7004CC03D /* ModeloDatos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7DCE716F247710E4004CC03D /* TableViewGroupedLab08.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewGroupedLab08.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCE7172247710E4004CC03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DCE7174247710E4004CC03D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DCE7177247710E4004CC03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DCE7179247710E5004CC03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DCE717C247710E5004CC03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DCE717E247710E5004CC03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DCE7184247711EC004CC03D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7DCE7186247712C6004CC03D /* Secciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secciones.swift; sourceTree = "<group>"; };
+		7DCE7188247713B7004CC03D /* ModeloDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloDatos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				7DCE7172247710E4004CC03D /* AppDelegate.swift */,
-				7DCE7174247710E4004CC03D /* ViewController.swift */,
+				7DCE7184247711EC004CC03D /* TableViewController.swift */,
+				7DCE7186247712C6004CC03D /* Secciones.swift */,
+				7DCE7188247713B7004CC03D /* ModeloDatos.swift */,
 				7DCE7176247710E4004CC03D /* Main.storyboard */,
 				7DCE7179247710E5004CC03D /* Assets.xcassets */,
 				7DCE717B247710E5004CC03D /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DCE7175247710E4004CC03D /* ViewController.swift in Sources */,
+				7DCE7187247712C6004CC03D /* Secciones.swift in Sources */,
 				7DCE7173247710E4004CC03D /* AppDelegate.swift in Sources */,
+				7DCE7185247711EC004CC03D /* TableViewController.swift in Sources */,
+				7DCE7189247713B7004CC03D /* ModeloDatos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
